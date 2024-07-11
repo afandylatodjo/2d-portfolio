@@ -9,14 +9,14 @@ const inflearn = "https://www.infinitelearning.id/";
 
 export const dialogueData = {
   pc: `
-  This is my PC, my powerfull tool to create some Website and Mobile Project. I work mostly in Javasript, PHP, MySQL, React.js, Express.js when making Website Project, i prefer Backend when working in team. When making Mobile Project I choose Java, Dart(Flutter) and Kotlin. Here is my <a href={github} targe="_">Github</a> page!.
+  This is my PC, my powerfull tool to create some Website and Mobile Project. I work mostly in Javasript, PHP, MySQL, React.js, Express.js when making Website Project, i prefer Backend when working in team. When making Mobile Project I choose Java, Dart(Flutter) and Kotlin. Here is my <a href=${github} targe="_">Github</a> page!.
   `,
   tv: `
    This is my TV, I usually watching my favourite recreational programming channel
-   <a href={channel} target="_">Tsoding Daily</a>. Really recommended if you like same type of channel.
+   <a href=${channel} target="_">Tsoding Daily</a>. Really recommended if you like same type of channel.
   `,
   "cs-degree": `
-  <a href={degree}>This</a> is my MSIB Certificate after completing Independent Study Program Batch 5 on Web Development at <a href={inflearn} target="_">Infinite Learning</a> in year of 2023.
+  <a href=${degree}>This</a> is my MSIB Certificate after completing Independent Study Program Batch 5 on Web Development at <a href=${inflearn} target="_">Infinite Learning</a> in year of 2023.
   `,
   "sofa-table":`
   This is my Sofa. I always take a sit here and relaxing myself while watching YouTube.
@@ -25,7 +25,7 @@ export const dialogueData = {
   This is my Bed. I sleep here (sometimes).
   `,
   resume:`
-  This is my Desk and on top of it is my <a href={paper} target="_">Resume</a>.
+  This is my Desk and on top of it is my <a href=${paper} target="_">Resume</a>.
   `,
   project:`
   Pending
