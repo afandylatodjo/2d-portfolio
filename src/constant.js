@@ -13,7 +13,7 @@ export const dialogueData = {
   `,
   tv: `
    This is my TV, I usually watching my favourite recreational programming channel
-   <a href=${channel} target="_">Tsoding Daily</a>. Really recommended if you like same type of channel.
+   <a href=${tv} target="_">Tsoding Daily</a>. Really recommended if you like same type of channel.
   `,
   "cs-degree": `
   <a href=${degree}>This</a> is my MSIB Certificate after completing Independent Study Program Batch 5 on Web Development at <a href=${inflearn} target="_">Infinite Learning</a> in year of 2023.
